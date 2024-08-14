@@ -1,24 +1,25 @@
 import axios from 'axios';
+import { Image } from '..//App//App.types';
 
 const API_URL = 'https://api.unsplash.com/search/photos';
 const CLIENT_ID = 'AO_bocnXiub9X5LTcIGZ44x0_b_cAAE2ccocCdfW534';
 
 
-interface Image {
-  id: string;
-  urls: {
-    raw: string;
-    full: string;
-    regular: string;
-    small: string;
-    thumb: string;
-  };
-  alt_description: string;
-  user: {
-    name: string;
-  };
+// interface Image {
+//   id: string;
+//   urls: {
+//     raw: string;
+//     full: string;
+//     regular: string;
+//     small: string;
+//     thumb: string;
+//   };
+//   alt_description: string;
+//   user: {
+//     name: string;
+//   };
   
-}
+// }
 
 interface FetchImagesResponse {
   results: Image[];

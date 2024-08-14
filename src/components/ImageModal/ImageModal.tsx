@@ -1,17 +1,17 @@
 import React from 'react';
 import Modal from 'react-modal';
 import css from './ImageModal.module.css';
+import { Image } from '..//App//App.types';
 
-
-interface Image {
-  urls: {
-    regular: string;
-  };
-  alt_description: string;
-  user: {
-    name: string;
-  };
-}
+// interface Image {
+//   urls: {
+//     regular: string;
+//   };
+//   alt_description: string;
+//   user: {
+//     name: string;
+//   };
+// }
 
 
 interface ImageModalProps {
